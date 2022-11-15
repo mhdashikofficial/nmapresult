@@ -1,5 +1,17 @@
-banner NMAP RESULT TAKER
-echo maded by ashikthehacker.com
+#!/bin/bash
+
+banner()
+{
+  echo "+------------------------------------------+"
+  printf "| %-40s |\n" "`date`"
+  echo "|                                          |"
+  printf "|`tput bold` %-40s `tput sgr0`|\n" "$@"
+  echo "+------------------------------------------+"
+}
+
+banner "nmap result taker"
+echo maded by ashik
+sleep 3
 echo Enter your target ip:  
 read ip
 echo enter output file name:
