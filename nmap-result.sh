@@ -9,8 +9,7 @@ banner()
   echo "+------------------------------------------+"
 }
 
-banner "nmap result taker"
-echo maded by ashik
+banner "nmap result taker maded by ashik"
 sleep 3
 echo Enter your target ip:  
 read ip
